@@ -7,7 +7,7 @@
  * some elements of it
  */
 
-project pSix "Web Game"  2024-12-15 +5m {
+project pSix "Web Game"  2024-12-15 +6m {
   # Set the default time zone for the project. If not specified, UTC
   # is used.
   timezone "Europe/Paris"
@@ -193,7 +193,7 @@ task WMGame "Web & Mobile Game" {
   }
 
   task ttest "Acceptance tests" {
-      effort 10d
+      effort 5d
       allocate boss
       allocate dev2
       allocate dev4
